@@ -15,3 +15,15 @@ eventually include:
 * Events happening at the labs
 * Oauth provision (get your oauth from us)
 * Oauth linking (sign up/sign in with your favourite oauth provider)
+
+## Installation
+
+First, install the packages listed in requirements.txt
+`pip install -r requirements.txt`
+
+Then cp the sample config
+`cp sample_config.py config.py`
+
+Edit the config to point at your database then run `./db_create.py`
+
+Now you should be able to just do `./run.py`
